@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Perfect Kinematics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>My Perfect Kinematics</h1> 
+        
+        <p>A perfect world is a physics world!</p>
+        <p>Not a good website but it's my first project I gave myself after learning JS for 4 days :)</p>
+    </header>
+
+    <hr>
+
+    <div class="maincontainer">
+        <div class="physicsvalues">
+            <div class="kinematicsheading">
+                <h2>1 Dimensional Kinematics</h2>
+                <h4>Put atleast 3 values into the boxes</h4>
+            </div>
+
+            <div class="X">
+                <label>Displacement/Distance(x):</label>
+                <input id="distance" placeholder="meters (m)" class="Kinematics-value">
+            </div>
+
+            <div class="ogV">
+                <label>Initial Velocity/Speed(v<sub>0</sub>):</label>
+                <input id="speedog" placeholder="meters per second (m/s)" class="Kinematics-value">
+            </div>
+
+            <div class="V">
+                <label>Velocity/Speed(v):</label>
+                <input id="speed" placeholder="meters per second (m/s)" class="Kinematics-value">
+            </div>
+
+            <div class="A">
+                <label>Acceleration(a):</label>
+                <input id="acceleration" placeholder="meters per second squared ()" class="Kinematics-value">
+            </div>
+
+            <div class="T">
+                <label>Time(t):</label>
+                <input id="time" placeholder="seconds (s)" class="Kinematics-value">
+            </div>
+
+            <div class="Asubmitbutton">
+                <button type="submit" id="submitting" class="submitbutton">
+                    Calculate
+                </button>
+            </div>
+        </div>
+
+        <div class="finalresult">
+            <h3>My Result</h3>
+            <p id="result"></p>
+            <h3 class="resultresult" id="result1"></h3>
+        </div>
+    </div>
+
+    <script src="index.JS"></script>
+</body>
+</html>

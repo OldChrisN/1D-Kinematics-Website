@@ -1,0 +1,99 @@
+header{
+    text-align: center;
+}
+
+.headerdiv{
+    border-radius: 10px;
+    display: inline-block;
+    padding: 20px;
+}
+
+
+
+/*I am tired of writing the same things man*/
+
+input{
+    padding: 10px 20px;
+}
+
+/*Above is header below is variable work*/
+
+.physicsvalues div{
+    padding: 10px;
+}
+.physicsvalues label{
+    display: flex;
+    justify-content: first baseline;
+    align-items: center;
+    font-size: 120%;
+}
+
+.submitbutton{
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+/*Result thing is below main stuff above*/
+
+.finalresult{
+    padding: 10px;
+}
+
+
+
+.finalresult h3{
+    display: flex;
+    justify-content: first baseline;
+    align-items: center;
+    font-size: 120%;
+}
+
+.finalresult p{
+    font-size: 120%;
+}
+
+
+.maincontainer{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 200px;
+    gap: 70px;
+}
+
+
+/*Stupid adaptive screen size stuff*/
+
+@media (max-width: 767px) {
+    .maincontainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+        gap: 30px;
+    }
+    .maincontainer h3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+        gap: 30px;
+    }
+
+    .physicsvalues label{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    body{
+        text-align: center;
+    }
+}
+
+/*This section is wherre I style my UI to look good*/
+/*This section is wherre I style my UI to look good*/
+/*This section is wherre I style my UI to look good*/
+
+h1, h2, h3, h4, p, label, button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
