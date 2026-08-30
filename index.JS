@@ -73,7 +73,7 @@ submitting.onclick = function(){
             return; 
         }
 
-        if(filledCount >= 3){
+        if(filledCount == 3){
             if(!isDistanceSolved){
                 if(isInitialSpeedSolved == true && isTimeSolved == true && isAccelerationSolved == true){
                     let solvedX = x0 + (v0 * t) + (0.5 * a * (t ** 2));
@@ -246,6 +246,11 @@ submitting.onclick = function(){
                 break;
             }  
         } 
+
+        else if(filledCount > 3){
+            result1.textContent = "You need to only put in 3 values";
+            return;
+        }
         
         else{
             console.log("No calculation");
